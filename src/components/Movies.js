@@ -38,7 +38,7 @@ const Movies = () => {
           <img  src={Loader} alt='loader-img' />
           </div>}
         {error && <div className='error-msg'>
-          {`There is a problem fetching your data-${error}`}
+          {`Oops...............There is a problem fetching your data-${error}`}
           </div>}
         <ul className='movie-details'>
           {data && data.results.map((item) => {
