@@ -45,9 +45,13 @@ const Movies = () => {
             return (
               <li key={item.episode_id}>
                 <h2>{item.title}</h2>
-                <p className='date'>{item.release_date}</p>
-                <p>{item.opening_crawl}</p> <hr/>
-                <a href='#'>More Info</a>
+                <p className='date'>{new
+                Date(item.release_date).toLocaleDateString('en-US',{month:'long',day:'numeric', year:'numeric'})}</p>
+                {/* <p>{item.opening_crawl}</p>  */}
+                <p>{item.opening_crawl.split('\n').slice(0, 10).join('\n')}...</p>
+
+                <hr/>
+                <a href='#more'>More Info</a>
 
               </li>
             )

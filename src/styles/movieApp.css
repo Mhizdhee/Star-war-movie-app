@@ -1,6 +1,6 @@
 .movieApp{
     background-color: black;
-     height: 170vh;
+     height: 130vh;
 }
 
 .box{
@@ -52,14 +52,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
-    width: 85%;
-    padding: 15px;
+    width: 80%;
+    padding: 5px;
+    line-height: 1.2;
    
 }
 
+
+
 li{
     
-    background-color: rgba(73,66,66,0.5);
+    /* background-color: rgba(73,66,66,0.5); */
     border-radius: 5px;
     padding: 10px;
     text-align: justify;
@@ -69,12 +72,49 @@ li{
     
 }
 
+li:nth-child(1){
+    background-image: url(../Images/bg-card-1.0c96fd00.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li:nth-child(2){
+    background-image: url(../Images/bg-card-2.b0a7b209.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li:nth-child(3){
+    background-image: url(../Images/bg-card-3.1914d853.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li:nth-child(4){
+    background-image: url(../Images/bg-card-4.c21c4d4b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li:nth-child(5){
+    background-image: url(../Images/bg-card-5.67d061d6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li:nth-child(6){
+    background-image: url(../Images/bg-card-6.b4fea25d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 li:hover{
-    /* cursor: pointer; */
     box-shadow:rgb(32, 152, 209) 0px 0px 10px 3px, rgb(0, 0, 0) 0px 0px 10px 0px;
 }
 li .date{
 color: rgb(145, 140, 140);
+padding-top: 0;
 }
 
 li a{
