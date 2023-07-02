@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+Link to the hosted page can be found below:
+https://my-star-wars-movie.netlify.app/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
